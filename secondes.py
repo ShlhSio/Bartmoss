@@ -4,7 +4,7 @@ minute = 60
 heure = minute * 60
 jour = heure * 24
 mois = jour * 30
-année = mois * 12
+année = jour * 365
 
 années = secondes // année
 secondes = secondes % année
