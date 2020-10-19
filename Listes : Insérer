@@ -1,0 +1,11 @@
+def collec(collection1, collection2, position):
+    if position < 0 or position > len(collection1):
+        return None
+    else:
+        collection1.insert(position, collection2)
+        return collection1
+
+c1 = ['A', 'E', 'janvier', 7, 5]
+c2 = ["Mars", 'CCP', 'a3', 0]
+
+print(collec(c1, c2, 2))
