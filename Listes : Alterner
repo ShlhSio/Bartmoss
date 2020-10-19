@@ -11,4 +11,11 @@ def patchin2(liste1, liste2):
         n+=1
     return liste3
 
+
+def maxlist(liste):
+    maximum = max(liste)
+    return maximum
+   
+   
 print(patchin2(t1,t2))
+print(maxlist(t1))
